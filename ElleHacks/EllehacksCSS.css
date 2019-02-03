@@ -9,6 +9,12 @@
   margin-top: 20px;
   display: none;
 }
+
+#end{
+  height: 50000%;
+  background: gray;
+  
+}
 #title{
   font-family: GeosansLightimport;
   text-align: center;
@@ -36,7 +42,7 @@ h1 {
 
 body {
   font-family: GeosansLightimport;
-  background-color: #F5C5ED;
+  background-image: url("KK.jpg");
   text-align: center;
   font-size: 25px;
 }
@@ -59,4 +65,8 @@ button {
   padding-top: 7px;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+body {
+ background-image: url("KK.jpg");
 }
