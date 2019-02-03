@@ -1,10 +1,26 @@
 h1 {
-  color: red;
+  color: gray;
   text-align: center;
   position: relative;
   bottom: 100;
+  font-size: 100px;
 }
 
 body {
-  background-color: #ff6699;
+  background-color: #F5C5ED;
+  text-align: center;
+  font-size: 25px;
+}
+
+form{
+  /*background-color: white;*/
+}
+
+input[type="text"] {
+    width: 850px;
+    font-size: 25px;
+}
+
+button {
+  font-size: 16px;
 }
