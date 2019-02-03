@@ -2,14 +2,10 @@
 var x;
 
 function myFunction() {
-  x = document.getElementById("myURL").value;
-
-  read();
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
 }
-
-const input = new File(1, "database.txt");
-var reader = new FileReader();
-reader.onload = function(evt) {
-  console.log(evt.target.result);
-};
-reader.readAsText(input);
