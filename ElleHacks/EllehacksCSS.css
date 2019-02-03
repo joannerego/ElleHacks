@@ -1,4 +1,10 @@
 h1 {
   color: red;
   text-align: center;
+  position: relative;
+  bottom: 100;
+}
+
+body {
+  background-color: #ff6699;
 }
