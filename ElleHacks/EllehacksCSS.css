@@ -3,21 +3,29 @@
   src:url("GeosansLight.ttf");
 }
 
-#main{
+#title{
   font-family: GeosansLightimport;
   text-align: center;
   font-size: 150px;
-  padding-top: 70px;
-  padding-bottom: 30px;
+  margin-bottom: 0.6em;
+  margin-top: 0.5em;
+  color: grey;
+}
+
+#description{
+  margin-bottom: 0.6em;
+  padding-bottom: 50px;
+}
+
+#urldescription{
+  color: grey;
 }
 
 h1 {
-  color: gray;
+  color: black;
   text-align: center;
   position: relative;
-  bottom: 100;
   font-size: 100px;
-  padding-bottom: 50px;
 }
 
 body {
@@ -27,10 +35,6 @@ body {
   font-size: 25px;
 }
 
-form{
-  /*background-color: white;*/
-}
-
 input[type="text"] {
     width: 850px;
     font-size: 18px;
@@ -38,22 +42,15 @@ input[type="text"] {
     padding-bottom: 15px;
     padding-left: 12px;
     padding-right: 12px;
+    margin-bottom: 1.5em;
     font-family: GeosansLightimport;
 }
 
-p{
-  padding: 10px;
-}
-
 button {
-  font-size: 20px;
+  font-size: 25px;
   font-family: GeosansLightimport;
   padding-bottom: 9px;
   padding-top: 7px;
   padding-left: 40px;
   padding-right: 40px;
-}
-
-object{
-  text-align: center;
 }
